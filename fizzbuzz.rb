@@ -7,7 +7,6 @@ def fizzbuzz(number)
     "Fizz"
   elsif number % 5 == 0
     "Buzz"
-binding.pry
   elsif (number % 3) == 0 && (number % 5) == 0
     "Fizzbuzz"
   else
